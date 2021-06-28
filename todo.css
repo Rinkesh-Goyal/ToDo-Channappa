@@ -1,0 +1,93 @@
+.header{
+    border-bottom: 3px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameName{
+    display: inline;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 2%; 
+    font-size: 40px;
+    text-align: center;
+}
+
+/* .image{
+    width: 30px;
+    height: auto;
+    padding: 5px;
+} */
+
+.nav{
+    display:block;
+    padding: 1%;
+    width:25%;
+    height:100vh;
+    /* background-color: #0082e8; */
+    border: 3px solid cadetblue;
+    align-content: center;
+    justify-content: center;
+}
+
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: black; 
+    /* background-color:black Green */
+    color: white;
+  }
+
+  #main{
+    position: absolute;
+  top: 135px;
+  right: 0;
+  width: 141vh;
+  height: 100vh;
+  border: 3px solid cadetblue;    
+  padding: 1%;  
+  align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+#form{
+    /* width: 141vh; */
+    /* display: flex; */
+    width: 50%;
+    height: 60vh;
+    margin-top: 10%;
+    align-content: center;
+    justify-content: center;
+    border:2px solid cadetblue;
+    }
+
+
+
+    #title,#data{
+        /* display: inline; */
+        width: 100%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        /* padding-right: 2%;  */
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #data{
+        /* border: 2px solid black; */
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
